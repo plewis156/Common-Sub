@@ -1,0 +1,27 @@
+/***************************************************************
+  Name: Paul Lewis
+  File Name: Manual.txt
+
+  User's manual for Common Substring Project
+***************************************************************/
+
+- Compiling the program:
+
+A Makefile is provided. Simply type "make" in console when in program directory.
+
+Otherwise the program can be compiled by typing the command
+    gcc -Wall commonSub.c stack.c -o commonSub
+
+- Running the program:
+
+To run the program simply type ./commonSub when in the program directory, after compiling.
+
+The program requires two files, "twoStrings.txt" and "multipleStrings.txt".
+
+twoStrings.txt must contain two strings, one on each line.
+
+multipleStrings.txt may contain any number of strings. The first line contains an
+integer identifying the number of strings. The following lines each contain a string.
+
+The program was written, compiled and run in the Linux operating system using the Linux Mint distribution.
+No IDEs were used in the creation of this program.
